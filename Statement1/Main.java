@@ -17,18 +17,22 @@ public class Main {
                 case 2:
                     studentData.EnrollStudent();
                     break;
-                
+                    
                 case 3:
                     studentData.RemoveStudent();
+                    break;
 
                 case 4:
                     studentData.UpdateStudent();
+                    break;
 
                 case 5:
                     studentData.DisplayStudentData();
+                    break;
 
                 case 6: 
                     studentData.DisplaySelectedStudent();
+                    break;
                 default:
                     break;
             }
