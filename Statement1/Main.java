@@ -12,7 +12,7 @@ public class Main {
         while(opt!=1){
             System.out.println("Select option of action you want to perform: ");
             System.out.print("1. Exit\t2. Enroll Student\t3. Remove Student\t4. Update Student\t5. Display Database\t6. Display Selected Student");
-            
+            opt = sc.nextInt();
             switch (opt) {
                 case 2:
                     studentData.EnrollStudent();
@@ -36,6 +36,8 @@ public class Main {
                 default:
                     break;
             }
+
+
 
         }
     
